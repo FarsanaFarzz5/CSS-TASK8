@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html,body{
+    line-height: 1.4;
+    font-weight: 300;
+}
+
+.first{
+    background-image: url(mans.avif);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.one{
+    color: white;
+    max-width: 900px ;
+    margin: 0 auto;
+    padding-top: 94px;
+    padding-left: 66px;
+    
+}
+
+.lg_text{
+    font-size: 72px;
+}
+
+.two{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.two h2{
+    font-size: 32px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.two h2 span{
+    font-size:52px ;
+}
+
+.three{
+    display:flex;
+    gap:40px;
+    padding: 30px;
+    margin-left: 20PX;
+    
+}
+
+.card{
+    box-shadow: 20px 20px 20px;
+    border:20px;
+    height: 400px;
+}
+
+.four{
+    display: flex;
+}
+
+.contact{
+    background-color: green;
+    min-height: 100px;
+    padding: 32px;
+    color: white;
+}
+
+.about{
+    background-color: brown;
+    min-height: 100px;
+    padding: 32px;
+    color: white;
+}
+
+.about p, .contact p{
+    margin-top: 20px;
+    
+}
+
+.about h2, .contact h2{
+    font-size: 33px;
+}
+
+.five{
+    
+        background-color: black;
+        color: white;
+        padding: 20px;
+        padding-left: 500px;
+        font-family:cursive;
+
+}
+
+
